@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    
+    font-family: 'Roboto';
+}
+
+h2 {
+    color: #1059A4;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/** Nav Bar **/
+.navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    justify-content: space-evenly;
+}
+
+.navbar img {
+    max-width: 200px;
+}
+
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+
+h4 {
+    border-bottom: 1px Solid #dedede;
+}
+
+/** Latest News **/
+
+.games-container {
+    width: 22%;
+    display: inline-block;
+    margin: 0 1%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.games-container img {
+    max-width: 100%;
+}
+
+.games-container a {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+
+/** Latest News **/
+
+.news-container {
+    width: 30%;
+    display: inline-block;
+    margin: 0 1%;
+    background-color: #ffffff;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.news-container p,
+h3 {
+    padding: 0 15px;
+}
+
+.news-container img {
+    max-width: 100%;
+}
+
+/** Footer **/
+
+.footer-links-container {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .9em;
+    color: #555555;
+}
+
+
+.footer-links-container li {
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.footer-links-container p {
+    font-weight: bold;
+    padding-left: 20px;
+}
